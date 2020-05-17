@@ -1,9 +1,22 @@
+html{
+	background-color: lavender;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+head{
+	width: 1200px;
+}
+
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	background-color: #FDF0FE;
-
 	
 	margin: 0px 0px 0px 0px;
+
+	width: 1200px;
 }
 
 h1,
@@ -23,6 +36,7 @@ h1{
 	color: #FFFFFF;
 
 	margin: 0px 600px 0px 20px; /*600px ancho de img background*/
+	padding: 0px 10px 10px 0px;
 }
 
 h1 strong{
@@ -79,8 +93,10 @@ h3{
 .header ul{
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
-	list-style: none;
 	height: inherit;
+
+	list-style: none;
+
 	display: flex;
 	align-items: center;
 }
@@ -88,29 +104,30 @@ h3{
 .header a{
 	color: #FFFFFF;
 	text-decoration: none;
+	font-size: 30px;
+
 	height: inherit;
 
 	padding: 0px 20px 0px 20px;
-
-	font-size: 30px;
 }
 
 /* ######################################################################### */
 
 .hero{
 	background-color: #A27FD4;
-	height: 300px;
 	background-image: url("https://drive.google.com/uc?export=view&id=1iz5HngNZM1zFPFqZP8muNzegm3klJH2j");
 	background-size: auto 300px;
 	background-repeat: no-repeat;
 	background-position-x: right;
+	
+	text-align: justify;
 
 	margin: 0px 0px 0px 0px;
 	border: 0px;
 	padding: 0px 10px 0px 0px;
+	height: 300px;
 
 	display: flex;
-	text-align: justify;
 }
 
 /* ######################################################################### */
@@ -120,15 +137,14 @@ h3{
 
 .exhibit{
 	background-color: #FDBEFF;
+
+	margin: 10px 20px 10px 20px;
+	padding: 0px 0px 0px 0px;
 	border: 4px 4p 4px 4px;
 	border-color: #A27FD4;
 	border-style: solid;
 	border-radius: 20px;
 	overflow: hidden;
-
-	margin: 10px 20px 10px 20px;
-	padding: 0px 0px 0px 0px;
-
 	height: 300px;
 	width: auto;
 
@@ -177,14 +193,11 @@ h3{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	/* flex-shrink: 0; */
-	/* align-items: center; */
 }
 
 .kernel{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	margin: 10px 20px 10px 20px;
+	padding: 0px 0px 0px 0px;
 
 	background-color: #FDBEFF;
 	border: 4px 4p 4px 4px;
@@ -192,13 +205,12 @@ h3{
 	border-style: solid;
 	border-radius: 20px;
 	overflow: hidden;
-
-	margin: 10px 20px 10px 20px;
-	padding: 0px 0px 0px 0px;
-
+	
 	width: 330px;
+	
+	display: flex;
+	flex-direction: column;
 }
-
 
 .kernel-image{
 	display: inline-block;
@@ -216,8 +228,10 @@ h3{
 
 	background-color: #FDF0FE;
 	
-	margin: -30px 20px 10px 20px;;
+	margin: -30px 20px 20px 20px;;
 	padding: 10px 20px 10px 20px;
+
+	box-shadow: 5px 5px #A27FD4;
 }
 
 .kernel-title,
@@ -314,38 +328,65 @@ h3{
 
 .contact{
 	background-color: #A27FD4;
-	height: 50px;
+	
 	padding: 10px 10px 10px 20px;
+	height: auto;
 
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	justify-content: space-between;
 }
 
-.contact-email{
-	font-size: 20px;
+.email{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	font-size: 30px;
 }
-.contact-link{
+
+.email label{
+	margin: 0px 20px 0px 0px;
+}
+
+.social{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	margin: 0px 10px 0px 0px;
+	width: 400px;
+}
+
+.social-link{
 	display: inline-block;
-	width: 50px;
+
+	margin: 0px 0px;
 	height: 50px;
+	width: 50px;
 }
 
-.contact-link.linkedin{
+.social-link.linkedin{
 	background-image: url("https://drive.google.com/uc?export=view&id=1fv7FfJGpIoyyevgeAg0p_92KaotUhUyq");
+	background-size: 50px auto;
 }
 
-.contact-link.instagram{
+.social-link.instagram{
 	background-image: url("https://drive.google.com/uc?export=view&id=1GYet9XWoGK32eaWENQ7gpBr6NejJWKVe");
+	background-size: 50px auto;
 }
 
-.contact-link.facebook{
+.social-link.facebook{
 	background-image: url("https://drive.google.com/uc?export=view&id=1LOrbpB6udvMpAsO9hHlpFrpw-oZ-lb1w");
+	background-size: 50px auto;
 }
 
-/* .contact-link.github{
-	background-image: url("https://drive.google.com/uc?export=view&id=1YBJ-XtDE_vst9tQJ9RC9j7TJacidmbyv");
-} */
+.social-link.github{
+	background-image: url("https://drive.google.com/uc?export=view&id=1rBzNXTTjD7j_EZleduNNtEB3l6kEtpiC");
+	background-size: 50px auto;
+}
 
 /* ######################################################################### */
 footer{
@@ -359,6 +400,10 @@ footer{
 
 footer div p{
 	margin: 0;
+}
+
+footer a{
+	text-decoration: none;
 }
 
 footer img{
