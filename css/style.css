@@ -6,9 +6,9 @@ html{
 	justify-content: center;
 }
 
-head{
-	/* width: 1200px; */
-}
+/* head{
+	width: 1200px;
+} */
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -31,12 +31,15 @@ h6{
 }
 
 h2{
+	width: 1000px;
+	margin: 20px 0px 20px 20px;
+
 	color: #A27FD4;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 
-	margin: 20px 0px 20px 20px;
+	
 }
 
 h3{
@@ -151,16 +154,19 @@ h1 strong{
 /* ######################################################################### */
 
 .showcase{
+	width: 1000px;
+	margin: 0px auto 0px auto;
+
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	/* align-items: center; */
+	/* justify-content: center; */
 }
 
 .exhibit{
 	background-color: #FDBEFF;
 
-	margin: 10px 20px 10px 20px;
+	margin: 20px 0px 20px 0px;
 	padding: 0px 0px 0px 0px;
 	border: 4px 4p 4px 4px;
 	border-color: #A27FD4;
@@ -168,7 +174,7 @@ h1 strong{
 	border-radius: 20px;
 	overflow: hidden;
 	height: 300px;
-	width: 1000px;
+	width: 100%;
 
 	display: flex;
 	flex-direction: row;
@@ -207,6 +213,9 @@ h1 strong{
 
 /* ######################################################################### */
 .core{
+	width: 1000px;
+	margin: 0px auto 0px auto;
+
 	display: block;
 }
 
@@ -219,7 +228,7 @@ h1 strong{
 }
 
 .kernel{
-	margin: 10px 20px 10px 20px;
+	margin: 20px 0px 20px 0px;
 	padding: 0px 0px 0px 0px;
 
 	background-color: #FDBEFF;
@@ -229,7 +238,7 @@ h1 strong{
 	border-radius: 20px;
 	overflow: hidden;
 	
-	width: 330px;
+	width: 300px;
 	
 	display: flex;
 	flex-direction: column;
@@ -296,6 +305,9 @@ h1 strong{
 
 /* ######################################################################### */
 .monetization{
+	width: 1000px;
+	margin: 0px auto 0px auto;
+
 	display: block;
 }
 
@@ -307,7 +319,7 @@ h1 strong{
 	border-radius: 20px;
 	overflow: hidden;
 
-	margin: 10px 20px 10px 20px;
+	margin: 20px 0px 20px 0px;
 	padding: 0px 0px 0px 0px;
 
 	display: flex;
