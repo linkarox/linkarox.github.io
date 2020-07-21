@@ -249,7 +249,7 @@ h1 strong{
 	margin: 0px 0px 0px 0px;
 	border: 0px;
 	padding: 0px 0px 0px 0px;
-	height: autopx;
+	height: auto;
 	width: inherit;
 }
 
